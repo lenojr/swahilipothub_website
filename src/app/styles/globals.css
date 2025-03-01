@@ -74,4 +74,39 @@
     line-height: 1.6;
     color: #333;
   }
+  .partners-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .partners-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .partners-slider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .partner-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .partner-logo {
+    width: 150px;
+    height: auto;
+    max-height: 80px;
+    transition: transform 0.3s ease;
+  }
+  
+  .partner-logo:hover {
+    transform: scale(1.1);
+  }
   
