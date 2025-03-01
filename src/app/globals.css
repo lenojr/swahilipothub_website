@@ -22,3 +22,119 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.events-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.events-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0d4a85;
+}
+
+.highlight {
+  color: #f4b76e;
+}
+
+.events-description {
+  font-size: 16px;
+  color: #4a4a4a;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.events-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background-color: #0d4a85;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.event-date {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.event-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.event-learn-more {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  background-color: #0d4a85;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination-btn:disabled {
+  background-color: #cccccc;
+}
+
+.pagination-text {
+  margin: 0 10px;
+}
+
+.event-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.modal-date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
