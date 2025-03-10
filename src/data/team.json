@@ -1,0 +1,20 @@
+[
+    {
+        "name": "John Doe",
+        "role": "Project Manager",
+        "bio": "John has over 10 years of experience in project management.",
+        "photo": "john_doe.jpg"
+    },
+    {
+        "name": "Jane Smith",
+        "role": "Lead Developer",
+        "bio": "Jane is a full-stack developer with a passion for coding.",
+        "photo": "jane_smith.jpg"
+    },
+    {
+        "name": "Emily Johnson",
+        "role": "UI/UX Designer",
+        "bio": "Emily designs user-friendly interfaces and experiences.",
+        "photo": "emily_johnson.jpg"
+    }
+]

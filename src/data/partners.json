@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Partner 1",
+        "website": "https://www.partner1.com",
+        "logo": "https://www.partner1.com/logo.png",
+        "description": "Partner 1 is a leading company in the industry."
+    },
+    {
+        "name": "Partner 2",
+        "website": "https://www.partner2.com",
+        "logo": "https://www.partner2.com/logo.png",
+        "description": "Partner 2 specializes in innovative solutions."
+    },
+    {
+        "name": "Partner 3",
+        "website": "https://www.partner3.com",
+        "logo": "https://www.partner3.com/logo.png",
+        "description": "Partner 3 is known for its excellent customer service."
+    }
+]

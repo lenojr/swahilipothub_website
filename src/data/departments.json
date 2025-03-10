@@ -1,0 +1,24 @@
+{
+    "departments": [
+        {
+            "id": 1,
+            "name": "Human Resources",
+            "description": "Responsible for recruiting, screening, interviewing and placing workers."
+        },
+        {
+            "id": 2,
+            "name": "Finance",
+            "description": "Manages the company's finances, including financial planning, management of financial risks, record-keeping, and financial reporting."
+        },
+        {
+            "id": 3,
+            "name": "Marketing",
+            "description": "Focuses on the promotion and selling of products or services, including market research and advertising."
+        },
+        {
+            "id": 4,
+            "name": "IT",
+            "description": "Responsible for the implementation and maintenance of the company's technology infrastructure."
+        }
+    ]
+}

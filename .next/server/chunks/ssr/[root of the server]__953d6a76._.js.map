@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Ronny/swahilipothub_website/src/pages/_app.tsx"],"sourcesContent":["import { AppProps } from 'next/app';\r\nimport '../styles/globals.css';\r\n\r\nfunction MyApp({ Component, pageProps }: AppProps) {\r\n    return <Component {...pageProps} />;\r\n}\r\n\r\nexport default MyApp;"],"names":[],"mappings":";;;;;;AAGA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC7C,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACnC;uCAEe","debugId":null}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

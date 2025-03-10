@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Program One",
+        "description": "Description for Program One",
+        "duration": "3 months",
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+    },
+    {
+        "id": 2,
+        "name": "Program Two",
+        "description": "Description for Program Two",
+        "duration": "6 months",
+        "startDate": "2023-04-01",
+        "endDate": "2023-09-30"
+    }
+]

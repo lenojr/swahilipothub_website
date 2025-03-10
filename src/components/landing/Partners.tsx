@@ -1,46 +1,27 @@
-"use client";
+import React from 'react';
+import Image from 'next/image';
+import './Partners.css'; // Assuming you have a CSS file for styling
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { partners } from "@/app/partners/partners-logos";
+const partners = [
+  { name: 'Partner 1', logo: 'logo1.png', website: 'https://partner1.com' },
+  { name: 'Partner 2', logo: 'logo2.png', website: 'https://partner2.com' },
+  { name: 'Partner 3', logo: 'logo3.png', website: 'https://partner3.com' },
+];
 
-
-
-interface Partner {
-  name: string;
-  logo: string;
-  link: string;
-}
-
-const Partners = () => {
-  const sliderSettings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4, // Adjust based on design
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
-      { breakpoint: 480, settings: { slidesToShow: 1 } },
-    ],
-  };
-
+const Partners: React.FC = () => {
   return (
-    <div className="partners-section">
-      <h2 className="partners-title">Our Partners</h2>
-      <Slider {...sliderSettings} className="partners-slider">
-        {partners.map((partner: Partner, index: number) => (
-          <div key={index} className="partner-slide">
-            <a href={partner.link} target="_blank" rel="noopener noreferrer">
-              <img src={partner.logo} alt={partner.name} className="partner-logo" />
+    <div className="partners">
+      <h2>Our Partners</h2>
+      <div className="partners-list">
+        {partners.map((partner, index) => (
+          <div key={index} className="partner-item">
+            <a href={partner.website} target="_blank" rel="noopener noreferrer">
+              <Image src={partner.logo} alt={partner.name} className="partner-logo" width={100} height={100} />
+              <p>{partner.name}</p>
             </a>
           </div>
         ))}
-      </Slider>
+      </div>
     </div>
   );
 };

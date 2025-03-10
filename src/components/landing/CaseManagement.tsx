@@ -52,6 +52,7 @@ const CaseManagement: React.FC = () => {
       {/* Google Form Section */}
       <div className="form-container">
         <iframe
+          title="Google Form"
           src="YOUR_GOOGLE_FORM_URL_HERE"
           width="100%"
           height="1200px"

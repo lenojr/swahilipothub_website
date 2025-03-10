@@ -1,0 +1,44 @@
+.radioStreamContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.radioStreamTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.radioStreamPlayer {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.radioStreamControls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+}
+
+.radioStreamButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.radioStreamButton:hover {
+    background-color: #0056b3;
+}
